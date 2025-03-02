@@ -1,0 +1,46 @@
+/* Apply light background color */
+body {
+    background-color: #f0f8ff; /* Light color for the page */
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container to hold image and content */
+.container {
+    display: flex;
+    padding: 20px;
+}
+
+/* Styling for image */
+.image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+/* Styling for content section */
+.content {
+    flex: 1;
+}
+
+/* Styling for headings */
+h1 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+/* Add horizontal line after each section */
+hr {
+    border: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+/* Styling for pre tag */
+pre {
+    font-size: 16px;
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 5px;
+}
